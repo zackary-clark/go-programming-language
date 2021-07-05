@@ -1,0 +1,7 @@
+this is a single line
+this line will be duplicated
+this is anotehr line
+this line will be duplicated
+this is yhet anotehr line
+this line will be duplicated
+this is the last line

@@ -3,15 +3,12 @@ package main
 import (
     "fmt"
     "os"
-    "strings"
 )
 
 func main() {
-    //s, sep := "", ""
-    //for _, arg := range os.Args[1:] {
-    //   s += sep + arg
-    //   sep = " "
-    //}
-    //fmt.Println(s)
-    fmt.Println(strings.Join(os.Args[1:], " "))
+    //fmt.Println(strings.Join(os.Args[1:], " "))
+
+    for i, arg := range os.Args {
+        fmt.Printf("%d:\t%s\n", i, arg)
+    }
 }
